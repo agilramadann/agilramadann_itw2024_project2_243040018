@@ -1,0 +1,209 @@
+Google Fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top:2rem ;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: "Merriweather", serif;
+}
+:root {
+    --main-color: #008148;
+    --second-color:  #1e3932;
+}
+
+section{
+    padding: 50px 10%;
+}
+
+img{
+   width: 100% ;
+}
+
+logo starbucks
+.logo {
+   display: flex;
+   align-items: center;
+}
+.logo img{
+   width: 40px;
+
+}
+
+home shop dll
+.navbar {
+    display: flex;
+}
+.navbar a{
+    font-size: 1rem;
+    padding: 1px 19px ;
+    color: var(--second-color);
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.navbar a:hover{
+    color: var(--second-color);
+}
+
+#menu-icon{
+    font-size: 24px ;
+    cursor: pointer;
+    z-index: 1001;
+    display: none;
+}
+
+
+.Home {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background:  #008148;
+    gap: 1rem;
+}
+.Home-text {
+    flex: 1 1 17rem;
+}
+.home-img{
+    flex: 1 1 17rem;
+
+}
+starbucks font
+.home-text h1{
+    font-size: 5.2rem;
+    color: var(--main-color);
+    font-weight: bolder ;
+}
+.home-text h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--second-color);
+    text-transform: uppercase;
+    margin: 0.5rem 0 1.4rem;
+}
+.btn {
+    padding: 7px 16px;
+    border: 2px solid var(--second-color);
+    border-radius: 40px;
+    color:var(--main-color);
+    font-weight: 500;
+}
+.btn :hover{
+    color: var(--second-color);
+    background: var(--second-color);
+}
+
+get now
+ .heading{
+    text-align: center;
+ }
+ .heading span{
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--second-color);
+ }
+
+
+ .heading h1{
+    font-size: 2rem;
+    color: var(--main-color);
+ }
+ container starbucks
+ .shop-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 5rem ;
+ }
+ .shop-container .box{
+    flex:1 1 10rem ;
+    background: var(--main-color);
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    border-radius: 0.9rem;
+ }
+ .shop-container .box .box-img{
+    width:150px ;
+    height: 150px;
+    margin-top: -100px;
+ }
+ .shop-container .box .box-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+ }
+ .shop-container .box h2{
+    color: #008148;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0.2rem 0 0.5rem ;
+ }
+ .box .btn{
+    border: 2px solid ;
+    color:#008148;
+ }
+ /*order now */
+ .box .btn:hover{
+    background: white;
+    color: var(--second-color);
+ }
+ .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  
+    
+ }
+ .delivery-img,
+ .app-img {
+    flex : 1 1 12rem;
+  
+ }
+ .delivery-text,
+ .app-text {
+    flex: 1 1 21rem;
+ }
+ .delivery-text h2,
+ .app-text h2 {
+    font-size: 1.2rem ;
+    color: var(--second-color);
+ }
+ .delivery-text p,
+ .app-text p{
+    margin: 1.5rem 1rem;
+    text-align: justify;
+ }
+
+
+ 
+ .about{
+    display: flex;
+    flex-wrap: wrap;
+    background: #008148;
+    gap: 1.5rem;
+ }
+ .about-img{
+flex: 1 1 17rem ;
+ }
+ .about-text {
+    flex: 1 1 17rem;
+ }
+ .about-text h2{
+    font-size: 2.2rem;
+    color: var(--second-color);
+ }
+ .about-text p{
+    margin: 0.5rem 0 1rem;
+    text-align: justify;
+ }
